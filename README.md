@@ -17,6 +17,6 @@ I built this website when I first started learning React to preserve the gaming 
 
 <img src="public/md/20260301151036885.jpg" width="100%" style="border-radius: 8px;" />
 
-<br/>
+##
 
 <img src="public/md/20260301151036725.jpg" width="100%" style="border-radius: 8px;" />

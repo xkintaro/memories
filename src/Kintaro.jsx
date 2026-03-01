@@ -5,6 +5,17 @@ import kintaroAudioFile from '/audio.mp3';
 import './kintaro.css';
 import KintaroSnowEffect from './KintaroSnowEffect';
 
+import user1 from './assets/users/1.webp';
+import user2 from './assets/users/2.webp';
+import user3 from './assets/users/3.webp';
+import user4 from './assets/users/4.webp';
+import user5 from './assets/users/5.webp';
+import user6 from './assets/users/6.webp';
+import user7 from './assets/users/7.webp';
+import user8 from './assets/users/8.webp';
+import user9 from './assets/users/9.webp';
+import user10 from './assets/users/10.webp';
+
 function Kintaro() {
   const [kintaroIsPlaying, setKintaroIsPlaying] = useState(false);
   const [kintaroVolume, setKintaroVolume] = useState(0.5);
@@ -74,16 +85,16 @@ function Kintaro() {
   };
 
   const kintaroFriendList = [
-    { name: 'kintaro', profileImage: './src/assets/users/1.webp' },
-    { name: 'durden', profileImage: './src/assets/users/2.webp' },
-    { name: 'flawes', profileImage: './src/assets/users/3.webp' },
-    { name: 'luxury', profileImage: './src/assets/users/4.webp' },
-    { name: 'micsfo', profileImage: './src/assets/users/5.webp' },
-    { name: 'truvaq', profileImage: './src/assets/users/6.webp' },
-    { name: 'leywin', profileImage: './src/assets/users/7.webp' },
-    { name: 'starx', profileImage: './src/assets/users/8.webp' },
-    { name: 'caylak', profileImage: './src/assets/users/9.webp' },
-    { name: 'mistazt', profileImage: './src/assets/users/10.webp' },
+    { name: 'kintaro', profileImage: user1 },
+    { name: 'durden', profileImage: user2 },
+    { name: 'flawes', profileImage: user3 },
+    { name: 'luxury', profileImage: user4 },
+    { name: 'micsfo', profileImage: user5 },
+    { name: 'truvaq', profileImage: user6 },
+    { name: 'leywin', profileImage: user7 },
+    { name: 'starx', profileImage: user8 },
+    { name: 'caylak', profileImage: user9 },
+    { name: 'mistazt', profileImage: user10 },
   ];
 
   const [kintaroProfilesPerPage, setKintaroProfilesPerPage] = useState(5);
