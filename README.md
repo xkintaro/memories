@@ -1,7 +1,7 @@
 ## 📷 Demo Links
 
 - [GitHub Pages](https://xkintaro.github.io/memories)
-- [Vercel](https://memories.vercel.app)
+- [Vercel](https://memories-gules-mu.vercel.app/)
 
 ## 📋 About
 
