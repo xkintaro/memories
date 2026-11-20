@@ -1,20 +1,20 @@
 <a href="README.md">
- <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
+  <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
 </a>
 <a href="README-TR.md">
- <img src="https://img.shields.io/badge/Dil-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
+  <img src="https://img.shields.io/badge/Language-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
 </a>
 
   <br />
   <br />
 
 <div align="center">
-  <img src="public/kintaro-logo.png" width="120" height="120" />
+  <img src="public/mascot.png" width="120" height="120" />
   <br />
   <br />
 
   <p>
-    Arkadaşlarla Olan Oyun Anılarını Saklamak İçin Modern Websitesi
+     Arkadaşlarımla biriktirdiğim oyun anılarını saklayan bir web sitesi.
   </p>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -23,78 +23,82 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
   <p>
+    <a href="#demo">Demo</a> •
+    <a href="#about">Hakkında</a> •
     <a href="#features">Özellikler</a> •
-    <a href="#technologies">Teknolojiler</a> •
-    <a href="#installation">Kurulum</a> •
-    <a href="#license">Lisans</a> •
-    <a href="#gallery">Galeri</a>
+    <a href="#tech">Teknolojiler</a> •
+    <a href="#setup">Kurulum</a> •
+    <a href="#gallery">Galeri</a> •
+    <a href="#license">Lisans</a>
   </p>
 
   <br />
   <br />
 </div>
 
-## 📷 Demo Link
+## <a id="demo"></a> 📷 Demo
 
-- [https://xkintaro.github.io/memories/](https://xkintaro.github.io/memories)
-- [https://memories-gules-mu.vercel.app/](https://memories-gules-mu.vercel.app/)
+- [https://xkintaro.github.io/memories/](https://xkintaro.github.io/memories/)
 
-## 📋 Hakkında
+## <a id="about"></a> 📋 Hakkında
 
-Bu web sitesini, React öğrenmeye başladığım dönemlerde arkadaşlarımla yaşadığım oyun anılarımı saklamak için yapmıştım.
+Bu web sitesini React öğrenmeye başladığım dönemde, arkadaşlarımla biriktirdiğim oyun anılarını saklamak için hazırladım. PUBG, Minecraft, Euro Truck Simulator, League of Legends, Roblox ve Wild Rift'teki ekran görüntülerimizi arkadaşlarımın profil kartlarıyla birlikte gösterir. Arayüz Türkçedir.
 
-## ✨ Özellikler <a id="features"></a>
+## <a id="features"></a> ✨ Özellikler
 
-- **Dinamik Banner:** Sayfa yüklendiğinde ve çalışma süresince değişen rastgele yazı tipleri ve selamlamalar.
-- **Müzik Deneyimi:** Arka planda çalan müzik, ses seviyesi kontrolü ve sessize alma özellikleri.
-- **Arkadaş Listesi:** Otomatik kayan ve rastgele sıralanan arkadaş profil kartları.
-- **Kategorize Edilmiş Galeri:** Oyunlara (PUBG, Minecraft, ETS, LoL, Roblox, Wild Rift) göre filtrelenebilen geniş bir anı koleksiyonu.
-- **Görsel Modalı:** Fotoğrafları tam boyutta inceleme imkanı.
-- **Kar Efekti:** Atmosferi değiştiren, isteğe bağlı açılıp kapatılabilen kar yağışı efekti.
-- **Responsive Tasarım:** Tüm cihazlarla (Mobil, Tablet, Masaüstü) uyumlu arayüz.
+- **Dinamik banner**: Sayfa açıkken banner'daki selamlama ve yazı tipi rastgele değişir.
+- **Arka plan müziği**: Müziği çalın, sesini ayarlayın ya da kapatın.
+- **Arkadaş listesi**: Arkadaşların profil kartları rastgele sırayla gösterilir ve otomatik olarak kayar.
+- **Kategorili galeri**: Anıları oyuna göre filtreleyin.
+- **Görsel modalı**: Herhangi bir fotoğrafı tam boyutta açın.
+- **Kar efekti**: Kar yağışı efektini açın ya da kapatın.
 
-## 🛠️ Teknolojiler <a id="technologies"></a>
+## <a id="tech"></a> 🛠️ Teknolojiler
 
-- **React 19**: Kullanıcı arayüzü bileşenleri.
-- **Vite**: Yüksek performanslı geliştirme ve build aracı.
-- **Vanilla CSS**: Özel tasarım, cam efektleri ve animasyonlar.
+`React` · `Vite` · `CSS` · `React Icons`
 
-## 🚀 Kurulum <a id="installation"></a>
+## <a id="setup"></a> 🚀 Kurulum
 
-Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+### Gereksinimler
 
-1. **Depoyu klonlayın:**
+- **Node.js**
+
+### Adım Adım Kurulum
+
+1. **Depoyu klonlayın**
 
    ```bash
    git clone https://github.com/xkintaro/memories.git
    cd memories
    ```
 
-2. **Bağımlılıkları yükleyin:**
+2. **Bağımlılıkları yükleyin**
 
    ```bash
    npm install
    ```
 
-3. **Uygulamayı çalıştırın:**
+   Windows'ta bunun yerine `install-dependencies.bat` dosyasını çalıştırabilirsiniz.
+
+3. **Geliştirme sunucusunu başlatın**
 
    ```bash
    npm run dev
    ```
 
-   Uygulama `http://localhost:5173` adresinde çalışacaktır.
+   Windows'ta bunun yerine `run.bat` dosyasını çalıştırabilirsiniz.
 
-## 📄 Lisans <a id="license"></a>
+Uygulamayı şu adreste açın: [http://localhost:5173](http://localhost:5173).
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Ayrıntılar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
+## <a id="gallery"></a> 🖼️ Galeri
 
-## 🖼️ Galeri <a id="gallery"></a>
+<img src="public/md/20260301151036885.jpg" />
 
-<img src="public/md/20260301151036885.jpg" width="100%"  />
+<img src="public/md/20260301151036725.jpg" />
 
-##
+## <a id="license"></a> 📄 Lisans
 
-<img src="public/md/20260301151036725.jpg" width="100%"  />
+Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
 
 #
 
